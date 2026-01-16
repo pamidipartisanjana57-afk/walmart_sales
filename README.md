@@ -1,4 +1,4 @@
-# walmart_sales: End-to-End SQL + Python Project P-9
+# walmart_sales: End-to-End SQL + Python Project 
 
 ## Project Overview
 
@@ -48,9 +48,9 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
-### 8. Load Data into MySQL and PostgreSQL
-   - **Set Up Connections**: Connect to MySQL and PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
-   - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
+### 8. Load Data into MySQL
+   - **Set Up Connections**: Connect to MySQL  using `sqlalchemy` and load the cleaned data into each database.
+   - **Table Creation**: Set up tables in both MySQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
@@ -75,7 +75,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 ## Requirements
 
 - **Python 3.8+**
-- **SQL Databases**: MySQL, PostgreSQL
+- **SQL Databases**: MySQL
 - **Python Libraries**:
   - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`, `psycopg2`
 - **Kaggle API Key** (for data downloading)
